@@ -10,8 +10,6 @@
     "ng": "ng",
     "start": "ng serve",
     "my-run": "npx playwright test test.spec.ts  --project=chromium"
-
-    
   },
   "dependencies": {
     "@angular/animations": "^14.2.12",
@@ -68,6 +66,7 @@
     "@angular/cli": "^14.2.10",
     "@angular/compiler-cli": "^14.2.12",
     "@angular/language-service": "14.2.12",
+    "@argos-ci/playwright": "^6.6.1",
     "@fortawesome/fontawesome-free": "^5.2.0",
     "@playwright/test": "^1.58.2",
     "@types/leaflet": "1.2.3",
