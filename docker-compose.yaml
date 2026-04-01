@@ -1,0 +1,15 @@
+version : '3.8'
+
+services:
+  playwright-test:
+    image: playwright-test
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: npm run my-run
+    volumes:
+      - ./playwright-report/:/app/playwright-report
+      - ./test-results/:/app/test-results
+
+
+# PS C:\Users\e_pozhilnilavang\Desktop\Playwrightudemy\pw-practice-app> docker-compose up --build
